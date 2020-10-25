@@ -1,0 +1,306 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+  <title>BookMark</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#"><img src="images/logo-bookmark.svg" alt="BookMark"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link nav-header active" href="#">FEATURES <span class="sr-only">(current)</span></a>
+          <a class="nav-link nav-header active" href="#">PRICING</a>
+          <a class="nav-link nav-header active" href="#">CONTACT</a>
+          <a class="nav-link btn btn-danger" href="#">LOGIN</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mobile text-center">
+      <div class="mobile-image-container">
+        <img id="mobile-image" src="images/illustration-hero.svg" alt="">
+        <img id="mobile-image-background" src="images/illustraion-background.png" alt="">
+      </div>
+      <div class="mobile-details-container">
+        <h1>A Simple Bookmark Manager</h1>
+        <p>A clean and simple interface to organise your favorite websites. Open a new browser tab and see your sites
+          load instantly. Try it free.</p>
+        <button class="btn btn-primary chrome-btn">Get it on Chrome</button>
+        <button class="btn firefox-btn">Get it on FireFox</button>
+      </div>
+    </div>
+
+    <div class="desktop row">
+      <div class="desktop-details-container col-md-6">
+        <h1>A Simple Bookmark Manager</h2>
+          <p>A clean and simple interface to organise your favorite websites. Open a new browser tab and see your sites
+            load instantly. Try it free.</p>
+          <button class="btn btn-primary chrome-btn">Get it on Chrome</button>
+          <button class="btn firefox-btn">Get it on FireFox</button>
+      </div>
+      <div class="col-md-6">
+        <img id="logo1" src="images/illustration-hero.svg" alt="">
+        <img class="logo1-background" src="images/illustraion-background.png" alt="">
+      </div>
+    </div>
+
+    <!-- Beginning of Features -->
+    <div class="features-text text-center">
+      <h2><b>Features</b></h2>
+      <p>Our aim is to make it quick and easy for you to access your favourite website. Your bookmarks sync between your
+        devices so you can access them on the go.</p>
+    </div>
+    
+    <div class="features-nav">
+      <!--Mobile design for features navigation header-->
+      <div class="features-nav-header mobile-features-view">
+        <div class="features-line"></div>
+        <div class="features-header bookmarking-header">
+          <p class="full-opacity">Simple Bookmarking</p>
+          <div class="features-highlight"></div>
+        </div>
+        <div class="features-line"></div>
+        <div class="features-header searching-header">
+          <p>Speedy Searching</p>
+          <div></div>
+        </div>
+        <div class="features-line"></div>
+        <div class="features-header sharing-header">
+          <p>Easy Sharing</p>
+          <div></div>
+        </div>
+        <div class="features-line"></div>
+      </div>
+      <br>
+
+      <!--Desktop design for features navigation header-->
+      <div class="features-nav-header desktop-features-view">
+        <div class="features-header bookmarking-header">
+          <p class="full-opacity">Simple Bookmarking</p>
+          <div class="features-highlight"></div>
+        </div>
+        <div class="features-header searching-header">
+          <p>Speedy Searching</p>
+          <div></div>
+        </div>
+        <div class="features-header sharing-header">
+          <p>Easy Sharing</p>
+          <div></div>
+        </div>
+        <div class="features-line"></div>
+      </div>
+      
+
+      <div class="features-nav-links overflow">
+        <!-- Simple Bookmarking -->
+        <div class="links-container bookmarking-container">
+          <div class="col-md-6 image">
+              <img class="hero1 img-fluid" src="images/illustration-features-tab-1.svg" alt="">
+              <img class="features-background-image img-fluid" src="images/features-background.png" alt="">
+            </div>
+            <div class="col-md-6 details">
+              <h2>Bookmark in one click</h2>
+              <p>Organize your bookmarks however you like. Our simple drag and drop interface gives you complete control
+                over how you manage your favourite sites.</p>
+              <button class="btn btn-primary">More Info</button>
+            </div>
+        </div>
+    
+        <!-- Speedy Searching -->
+        <div class="links-container searching-container">
+            <div class="col-md-6">
+              <img class="hero1 img-fluid" src="images/illustration-features-tab-2.svg" alt="">
+              <img class="features-background-image img-fluid" src="images/features-background.png" alt="">
+            </div>
+            <div class="col-md-6 details">
+              <h2>Intelligent Search</h2>
+              <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all
+                your bookmarks</p>
+              <button class="btn btn-primary">More Info</button>
+            </div>
+        </div>
+    
+        <!-- Easy Sharing -->
+        <div class="links-container sharing-container">
+            <div class="col-md-6">
+              <img class="hero1 img-fluid" src="images/illustration-features-tab-3.svg" alt="">
+              <img class="features-background-image img-fluid" src="images/features-background.png" alt="">
+            </div>
+            <div class="col-md-6 details">
+              <h2>Share your bookmarks</h2>
+              <p>Easily share your bookmarks and collections with others. Create a sharing link that you can send at the click of a button.</p>
+              <button class="btn btn-primary">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Features-->
+
+    <!--Beginning of Extensions-->
+    <div class="extension-text text-center">
+      <h2><b>Download the extension</b></h2>
+      <p>We've got more browsers in the pipeine. Please do let us know if you've got a favorite you'd like us to prioritize</p>
+    </div>
+
+    <div class="extension-cards">
+      <div class="cards chrome-card">
+        <img src="images/logo-chrome.svg" alt="Chrome" style="width:40%; margin: 40px 0 40px 0;">
+        <h4>Add to Chrome</h4>
+        <p>Minimum version 62</p>
+        <img src="images/bg-dots.svg" alt="" style="width:100%; margin: 20px 0 20px 0;">
+        <button class="btn btn-primary">Add & Install Extension</button>
+      </div>
+      <div class="cards firefox-card">
+        <img src="images/logo-firefox.svg" alt="Firefox" style="width:40%; margin: 40px 0 40px 0;">
+        <h4>Add to Firefox</h4>
+        <p>Minimum version 55</p>
+        <img src="images/bg-dots.svg" alt="" style="width:100%; margin: 20px 0 20px 0;">
+        <button class="btn btn-primary">Add & Install Extension</button>
+      </div>
+      <div class="cards opera-card">
+        <img src="images/logo-opera.svg" alt="Opera" style="width:40%; margin: 40px 0 40px 0;">
+        <h4>Add to Opera</h4>
+        <p>Minimum version 46</p>
+        <img src="images/bg-dots.svg" alt="" style="width:100%; margin: 20px 0 20px 0;">
+        <button class="btn btn-primary">Add & Install Extension</button>
+      </div>
+    </div>
+    <!--End of Extensions-->
+
+    <!--Beginning of FAQ-->
+    <div class="faq">
+      <div class="faq-text text-center">
+        <h2><b>Frequently Asked Questions</b></h2>
+        <p>Here are some of our FAQs. If you have any other questions you'd like answered, please feel free to email us.</p>
+      </div>
+      <div class="card">
+        <div class="card-header faq-card-header">
+          <p><b>What is Bookmark?</b></p>
+          <a href=".card-1" data-toggle="collapse"><img src="images/icon-arrow.svg" alt="" style="width: 0.9em; height: 0.6em;"></a>
+        </div>
+        <p class="card-body card-1 collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime quasi illum soluta at. Consequuntur numquam veritatis cupiditate neque, 
+          placeat necessitatibus repellendus quas vel temporibus voluptatum ad tenetur? Aliquid, et.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-header faq-card-header">
+          <p><b>How can I request a new browser?</b></p>
+          <a href=".card-2" data-toggle="collapse"><img src="images/icon-arrow.svg" alt="" style="width: 0.9em; height: 0.6em;"></a>
+        </div>
+        <p class="card-body card-2 collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime quasi illum soluta at. Consequuntur numquam veritatis cupiditate neque, 
+          placeat necessitatibus repellendus quas vel temporibus voluptatum ad tenetur? Aliquid, et.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-header faq-card-header">
+          <p><b>Is there a mobile app?</b></p>
+          <a href=".card-3" data-toggle="collapse"><img src="images/icon-arrow.svg" alt="" style="width: 0.9em; height: 0.6em;"></a>
+        </div>
+        <p class="card-body card-3 collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime quasi illum soluta at. Consequuntur numquam veritatis cupiditate neque, 
+          placeat necessitatibus repellendus quas vel temporibus voluptatum ad tenetur? Aliquid, et.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-header faq-card-header">
+          <p><b>What about other Chromium browsers?</b></p>
+          <a href=".card-4" data-toggle="collapse"><img src="images/icon-arrow.svg" alt="" style="width: 0.9em; height: 0.6em;"></a>
+        </div>
+        <p class="card-body card-4 collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime quasi illum soluta at. Consequuntur numquam veritatis cupiditate neque, 
+          placeat necessitatibus repellendus quas vel temporibus voluptatum ad tenetur? Aliquid, et.
+        </p>
+      </div>
+      <div class="faq-button-container">
+        <button class="btn btn-primary">More Info</button>
+      </div>
+    </div>
+    <!--End of FAQ-->
+
+    <footer>
+      <div id="footer-text">
+        <p>35,000+ ALREADY JOINED</p>
+        <h2>Stay up-to-date with what we're doing</h2>
+        <div>
+          <input type="text" placeholder="Enter your email address">
+          <button class="btn btn-danger">Contact Us</button>
+        </div>
+      </div>
+      <div id="footer-nav">
+        <div id="footer-nav-links">
+          <a href="#"><img src="images/logo-bookmark.svg" alt="Bookmark"></a>
+          <a href="#">FEATURES</a>
+          <a href="#">PRICING</a>
+          <a href="#">CONTACT</a>
+        </div>
+        <div id="footer-social-icons">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="jquery-3.5.1.js"></script>
+  <script src="https://kit.fontawesome.com/7ce35f50d5.js" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".bookmarking-header").click(function (e) {
+        //fade out other containers and fade in selected container
+        $(".searching-container, .sharing-container").fadeOut(300, function () {
+          $(".bookmarking-container").fadeIn(800);
+        });
+        //Remove classes 'features-highlight' and 'full-opacity' from other headers and add to clicked header
+        $(".searching-header div, .sharing-header div").removeClass("features-highlight");
+        $(".bookmarking-header div").addClass("features-highlight");
+        $(".searching-header p, .sharing-header p").removeClass("full-opacity");
+        $(".bookmarking-header p").addClass("full-opacity");
+      });
+
+      $(".searching-header").click(function (e) {
+        //fade out other containers and fade in selected container
+        $(".bookmarking-container, .sharing-container").fadeOut(300, function () {
+          $(".searching-container").fadeIn(800);
+        });
+        //Remove classes 'features-highlight' and 'full-opacity' from other headers and add to clicked header
+        $(".bookmarking-header div, .sharing-header div").removeClass("features-highlight");
+        $(".searching-header div").addClass("features-highlight");
+        $(".bookmarking-header p, .sharing-header p").removeClass("full-opacity");
+        $(".searching-header p").addClass("full-opacity");
+      });
+
+      $(".sharing-header").click(function (e) {
+        //fade out other containers and fade in selected container
+        $(".bookmarking-container, .searching-container").fadeOut(300, function () {
+          $(".sharing-container").fadeIn(800);
+        });
+        //Remove classes 'features-highlight' and 'full-opacity' from other headers and add to clicked header
+        $(".bookmarking-header div, .searching-header div").removeClass("features-highlight");
+        $(".sharing-header div").addClass("features-highlight");
+        $(".bookmarking-header p, .searching-header p").removeClass("full-opacity");
+        $(".sharing-header p").addClass("full-opacity");
+      });
+    });
+  </script>
+</body>
+
+</html>
