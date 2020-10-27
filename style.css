@@ -25,23 +25,8 @@
 
 .mobile-image-container {
     margin-top: 55px;
-    margin-bottom: 65px;
-    height: 50vh;
-}
-
-.mobile-details-container {
-    width: 80vw;
-    margin: auto;
-}
-
-.mobile-details-container h1 {
-    font-size: 35px !important;
-}
-
-.mobile-details-container p {
-    font-size: 1.1em;
-    margin-bottom: 25px;
-    opacity: 0.8;  
+    margin-bottom: 0px;
+    height: 40vh;
 }
 
 #mobile-image {
@@ -50,10 +35,29 @@
 
 #mobile-image-background {
     position: relative;
-    top: -330px;
+    top: -250px;
     right: -15px;
     width: 100%;
     z-index: -1;
+}
+
+.mobile-details-container h1 {
+    width: 93vw;
+    margin: auto;
+    font-size: 35px !important;
+}
+
+.mobile-details-container p {
+    width: 85vw;
+    margin: auto;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    opacity: 0.8;  
+}
+
+#mobile-details-buttons {
+    width: 92vw;
+    margin: auto;
 }
 
 .desktop {
@@ -414,8 +418,7 @@ footer {
 }
 
 .firefox-btn, .chrome-btn {
-    margin-top: 30px;
-    width: 40% !important;
+    width: 45% !important;
     height: 50px !important;
 }
 
@@ -435,8 +438,12 @@ footer {
     margin-top: 200px;
 }
 
+.features-text h2 {
+    font-size: 30px;
+}
+
 .features-text p {
-    width: 80vw;
+    width: 85vw;
     font-size: 1.1em;
 }
 
@@ -476,10 +483,15 @@ footer {
 }
 
 .features-background-image {
-    width: 85vw;
-    height: 75vh !important;
-    top: -40px;
-    left: 0px;
+    position: relative;
+    width: 100%;
+    height: 51vh !important;
+    top: -225px;
+    left: -15px;
+}
+
+.searching-container .features-background-image, .sharing-container .features-background-image {
+    top: -230px;
 }
 
 .details {
@@ -487,19 +499,22 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-top: -250px;
+}
+
+.details h2 {
+    margin: 0px auto 25px auto;
+    font-size: 30px;
+    width: 90vw;
+    font-weight: 700;
 }
 
 .details p {
     font-size: 1.1em;
     text-align: center;
     margin: auto;
-    width: 80vw;
-}
-
-.details h2 {
-    margin: 60px auto 25px auto;
-    font-weight: 700;
+    width: 85vw;
 }
 
 .details button {
@@ -507,15 +522,24 @@ footer {
 }
 
 .overflow {
-    height: 700px;
+    height: 650px;
     width: 95vw;
     margin-left: -15px;
+}
+
+.extension-text {
+    width: 85vw;
+    margin: 40px auto 0 auto;
+}
+
+.extension-text h2 {
+    font-size: 30px;
 }
 
 .extension-text p {
     font-size: 1.1em;
     margin: 20px auto;
-    width: 80vw;
+    width: 100%;
     opacity: 0.8;
 }
 
@@ -539,9 +563,13 @@ footer {
 
 .faq {
     margin: 160px auto 0px auto;
-    width: 80vw;
-    font-size: 20px;
+    width: 85vw;
+    font-size: 1.1em;
     opacity: 0.8;
+}
+
+.faq-text h2 {
+    font-size: 30px;
 }
 
 .card {
@@ -550,7 +578,7 @@ footer {
 
 #footer-text {
     padding: 70px 0px 40px 0px;
-    width: 80vw;
+    width: 85vw;
     font-size: 1.1em !important;
 }
 
@@ -563,7 +591,7 @@ footer {
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 80vw;
+    width: 85vw;
 }
 
 #footer-text div input {
