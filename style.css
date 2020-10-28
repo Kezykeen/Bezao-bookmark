@@ -99,13 +99,13 @@
     font-size: 15px !important;
 }
 
-#logo1 {
+#desktop-image {
     position: absolute;
     right: -70px;
     width: 43vw;
 }
 
-.logo1-background {
+#desktop-image-background {
     position: absolute;
     top: 15px;
     left: 145px;
@@ -151,18 +151,18 @@
     opacity: 1 !important;
 }
 
-.features-background-image {
+/*move the features main image a little to the left to center it*/
+.features-link-image {
+    margin-left: 100px;
+}
+
+.features-image-background {
     position: absolute;
     top: -20px;
     right: 90px;
     height: 580px;
     z-index: -1;
     width: 90%;
-}
-
-/*move the features main image a little to the left*/
-.hero1 {
-    margin-left: 100px;
 }
 
 .features-line {
@@ -461,7 +461,8 @@ footer {
 }
 
 .features-highlight {
-    width: auto;
+    width: 60%;
+    margin: auto;
 }
 
 .features-line {
@@ -476,13 +477,13 @@ footer {
     margin-top: 0px !important;
 }
 
-.hero1 {
+.features-link-image {
     width: 85vw;
     height: 57vh;
     margin-left: 10px;
 }
 
-.features-background-image {
+.features-image-background {
     position: relative;
     width: 100%;
     height: 51vh !important;
@@ -549,7 +550,7 @@ footer {
 
 .cards {
     width: 70vw;
-    height: 440px;
+    height: 370px;
 }
 
 .chrome-card {
@@ -558,7 +559,7 @@ footer {
 
 .opera-card {
     margin-top: 20px;
-    height: 450px;
+    height: 380px;
 }
 
 .faq {

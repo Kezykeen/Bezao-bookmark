@@ -28,6 +28,7 @@
       </div>
     </nav>
 
+    <!--Front page mobile view-->
     <div class="mobile text-center">
       <div class="mobile-image-container">
         <img id="mobile-image" src="images/illustration-hero.svg" alt="">
@@ -43,7 +44,9 @@
         </div>
       </div>
     </div>
+    <!--End of mobile view-->
 
+    <!--Front page desktop view-->
     <div class="desktop row">
       <div class="desktop-details-container col-md-6">
         <h1>A Simple Bookmark Manager</h2>
@@ -53,10 +56,11 @@
           <button class="btn firefox-btn">Get it on FireFox</button>
       </div>
       <div class="col-md-6">
-        <img id="logo1" src="images/illustration-hero.svg" alt="">
-        <img class="logo1-background" src="images/illustraion-background.png" alt="">
+        <img id="desktop-image" src="images/illustration-hero.svg" alt="">
+        <img id="desktop-image-background" src="images/illustraion-background.png" alt="">
       </div>
     </div>
+    <!--End of desktop view-->
 
     <!-- Beginning of Features -->
     <div class="features-text text-center">
@@ -109,11 +113,11 @@
         <!-- Simple Bookmarking -->
         <div class="links-container bookmarking-container">
           <div class="col-md-6 image">
-              <img class="hero1 img-fluid" src="images/illustration-features-tab-1.svg" alt="">
-              <img class="features-background-image img-fluid" src="images/features-background.png" alt="">
+              <img class="features-link-image img-fluid" src="images/illustration-features-tab-1.svg" alt="">
+              <img class="features-image-background img-fluid" src="images/features-background.png" alt="">
             </div>
             <div class="col-md-6 details">
-              <h2>Bookmark in one click</h2>
+              <h2 class="text-center">Bookmark in one click</h2>
               <p>Organize your bookmarks however you like. Our simple drag and drop interface gives you complete control
                 over how you manage your favourite sites.</p>
               <button class="btn btn-primary">More Info</button>
@@ -123,11 +127,11 @@
         <!-- Speedy Searching -->
         <div class="links-container searching-container">
             <div class="col-md-6">
-              <img class="hero1 img-fluid" src="images/illustration-features-tab-2.svg" alt="">
-              <img class="features-background-image img-fluid" src="images/features-background.png" alt="">
+              <img class="features-link-image img-fluid" src="images/illustration-features-tab-2.svg" alt="">
+              <img class="features-image-background img-fluid" src="images/features-background.png" alt="">
             </div>
             <div class="col-md-6 details">
-              <h2>Intelligent Search</h2>
+              <h2 class="text-center">Intelligent Search</h2>
               <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all
                 your bookmarks</p>
               <button class="btn btn-primary">More Info</button>
@@ -137,11 +141,11 @@
         <!-- Easy Sharing -->
         <div class="links-container sharing-container">
             <div class="col-md-6">
-              <img class="hero1 img-fluid" src="images/illustration-features-tab-3.svg" alt="">
-              <img class="features-background-image img-fluid" src="images/features-background.png" alt="">
+              <img class="features-link-image img-fluid" src="images/illustration-features-tab-3.svg" alt="">
+              <img class="features-image-background img-fluid" src="images/features-background.png" alt="">
             </div>
             <div class="col-md-6 details">
-              <h2>Share your bookmarks</h2>
+              <h2 class="text-center">Share your bookmarks</h2>
               <p>Easily share your bookmarks and collections with others. Create a sharing link that you can send at the click of a button.</p>
               <button class="btn btn-primary">More Info</button>
             </div>
@@ -254,7 +258,7 @@
     </footer>
   </div>
 
-  <!-- jQuery and JS bundle w/ Popper.js -->
+  <!-- jQuery and JS bundle w/ Popper.js links -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -264,6 +268,8 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="jquery-3.5.1.js"></script>
   <script src="https://kit.fontawesome.com/7ce35f50d5.js" crossorigin="anonymous"></script>
+  
+  <!--Jquery-->
   <script>
     $(document).ready(function () {
       $(".bookmarking-header").click(function (e) {
